@@ -38,6 +38,6 @@ Step by step instruction to run the automation script ::
     - git clone http_git_repository
 4. Use cd command to navigate to the directory containing project's pom.xml file
     - cd path_of_project_directory
-5. Run "amazon_test_case_run" windows batch file or
+5. Run "entrata_test_case_run" windows batch file or
    Run below commands where "pom.xml" file exists
     - mvn clean install 
