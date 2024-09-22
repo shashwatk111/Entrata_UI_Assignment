@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utils.Listeners"/>
+    </listeners>
+    <test verbose="2" name="\Entrata_Selenium_Test">
+        <classes>
+            <class name="testCases.Entrata_Test_Cases">
+                <methods>
+                    <include name="validate_user_can_schedule_a_demo"/>
+                    <include name="validate_there_are_no_broken_links_are_present_on_the_website"/>
+                    <include name="validate_particular_guide_is_present_on_Entrata_website"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
